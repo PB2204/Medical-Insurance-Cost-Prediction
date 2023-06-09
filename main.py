@@ -3,7 +3,7 @@ import pickle
 import streamlit as st
 
 # loading the saved model
-loaded_model = pickle.load(open('C:/Users/rocks/OneDrive/Desktop/Projects/Medical-Insurence/Medical-Insurance-Cost-Prediction.sav', 'rb'))
+loaded_model = pickle.load(open('Medical-Insurance-Cost-Prediction.sav', 'rb'))
 
 #creating a function for Prediction
 def medical_insurance_cost_prediction(input_data):
