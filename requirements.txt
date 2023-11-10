@@ -5,3 +5,4 @@ scikit-learn==1.0.1
 validators>=0.21.0 # not directly required, pinned by Snyk to avoid a vulnerability
 pillow>=10.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
 tornado>=6.3.3 # not directly required, pinned by Snyk to avoid a vulnerability
+pyarrow>=14.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
